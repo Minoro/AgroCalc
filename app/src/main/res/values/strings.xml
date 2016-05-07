@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">CalcPulverizador</string>
+    <string name="label_distancia_bicos">Distância entre os bicos</string>
+
+    <string-array name="spinner_distancia_bicos">
+        <item>0,60m</item>
+        <item>0,50m</item>
+        <item>0,40m</item>
+        <item>0,35m</item>
+    </string-array>
 </resources>
