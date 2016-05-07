@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">CalcPulverizador</string>
-    <string name="label_distancia_bicos">Distância entre os bicos</string>
+    <string name="app_name">Calculo de Vazão</string>
+    <string name="label_distancia_bicos">Distância entre os bicos:</string>
 
     <string-array name="spinner_distancia_bicos">
         <item>0,60m</item>
@@ -8,4 +8,9 @@
         <item>0,40m</item>
         <item>0,35m</item>
     </string-array>
+
+    <string name="label_vazao">Vazão(L/min):</string>
+    <string name="button_text">Calcular Volume</string>
+    <string name="label_velocidade">Velocidade Média de Pulverização(Km/h):</string>
+    <string name="label_volume">Volume de Pulverização:</string>
 </resources>
