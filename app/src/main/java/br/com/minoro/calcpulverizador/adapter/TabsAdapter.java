@@ -6,6 +6,8 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 import br.com.minoro.calcpulverizador.FormulaActivity;
+import br.com.minoro.calcpulverizador.InstrucoesActivity;
+import br.com.minoro.calcpulverizador.PraticaActivity;
 
 public class TabsAdapter extends FragmentPagerAdapter {
 
@@ -22,6 +24,12 @@ public class TabsAdapter extends FragmentPagerAdapter {
             case 0:
                 FormulaActivity formulaActivity = new FormulaActivity();
                 return formulaActivity;
+            case 1:
+                PraticaActivity praticaActivity = new PraticaActivity();
+                return praticaActivity;
+            case 2:
+                InstrucoesActivity instrucoesActivity = new InstrucoesActivity();
+                return instrucoesActivity;
         }
 
         return null;
@@ -30,5 +38,10 @@ public class TabsAdapter extends FragmentPagerAdapter {
     @Override
     public int getCount() {
         return TABS_COUNT;
+    }
+
+    @Override
+    public CharSequence getPageTitle(int position) {
+        return tabs[position];
     }
 }
